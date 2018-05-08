@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 import { NavigationStart, Router, UrlSegment } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
 import { map } from 'rxjs/operator/map';
-import { mergeStatic } from 'rxjs/operator/merge';
+import { merge as mergeStatic } from 'rxjs';
 import { Subject } from 'rxjs/Subject';
 
 import { TourAnchorDirective } from './tour-anchor.directive';
